@@ -1,0 +1,111 @@
+body {
+  background-color: #609ea1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Game_Title {
+  color: white;
+  font-size: 40px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-style: dotted;
+  border-bottom-color: orange;
+}
+
+.Score {
+  color: white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.gameBoardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.gameButtonContainer {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:active {
+  color: #deb987;
+  transition: 0.1s;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: 3px solid #deb987;
+  font-size: 100px;
+  font-weight: 600;
+}
+
+#Cell_1,
+#Cell_4,
+#Cell_7 {
+  border-left: none;
+}
+
+#Cell_3,
+#Cell_6,
+#Cell_9 {
+  border-right: none;
+}
+
+#Cell_1,
+#Cell_2,
+#Cell_3 {
+  border-top: none;
+}
+
+#Cell_7,
+#Cell_8,
+#Cell_9 {
+  border-bottom: none;
+}
+
+.Modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  font-size: 30px;
+  font-weight: 700;
+  opacity: 0.7;
+  border-radius: 2%;
+  background-color: white;
+}

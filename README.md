@@ -1,7 +1,12 @@
 # tic-tac-toe
 
+![image](https://user-images.githubusercontent.com/60723373/176410466-fd6337cb-13fe-4a9d-9bec-64c624b2c04e.png)
+
+
 이 리포지토리는 Homework 1 : 틱택토 만들기 코드를 올리기 위해 만들어졌습니다.
 
+
+### 프로젝트 파일 구조
 ```
 │  index.html
 │  index.js
